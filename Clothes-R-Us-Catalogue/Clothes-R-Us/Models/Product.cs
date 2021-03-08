@@ -15,9 +15,14 @@ namespace Clothes_R_Us.Models
         
         public abstract List<string> Categories { get;}
 
-        protected Product(PriceCalculator priceCalculator)
+        protected Product(PriceCalculator priceCalculator, int productNumber, string name, string description, double price, List<Image> images)
         {
             _calculator = priceCalculator;
+            ProductNumber = productNumber;
+            Name = name;
+            Description = description;
+            Price = price;
+            Images = images;
         }
     }
 }

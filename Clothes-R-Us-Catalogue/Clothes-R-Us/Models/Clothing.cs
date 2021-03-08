@@ -13,7 +13,24 @@ namespace Clothes_R_Us.Models
         public List<Size> Sizes { get; set; }
         public List<Colour> Colours { get; set; }
         
-        public Clothing(PriceCalculator priceCalculator, Sex sex, Age age, string type) : base(priceCalculator)
+        public Clothing(
+            PriceCalculator priceCalculator, 
+            Sex sex, 
+            Age age, 
+            string type, 
+            int productNumber, 
+            string name, 
+            string description, 
+            double price, 
+            List<Image> images) 
+            : 
+            base(
+                priceCalculator, 
+                productNumber,  
+                name, 
+                description, 
+                price, 
+                images)
         {
             _sex = sex;
             _age = age;
