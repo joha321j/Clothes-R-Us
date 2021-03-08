@@ -2,12 +2,12 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/contentModel.xml
 /modules.xml
-/.idea.Clothes-R-Us.iml
 /projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Clothes-R-Us-Catalogue.iml
 # Datasource local storage ignored files
-/../../../../../../../../../:\Users\Johannes\Documents\Git\Clothes-R-Us\.idea\.idea.Clothes-R-Us\.idea/dataSources/
+/../../../../../../../../../../:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\.idea\.idea.Clothes-R-Us-Catalogue\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
