@@ -54,3 +54,7 @@ C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us
 C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\obj\Debug\net5.0\ref\Clothes-R-Us.dll
 C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\obj\Debug\net5.0\Clothes-R-Us.pdb
 C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\obj\Debug\net5.0\Clothes-R-Us.genruntimeconfig.cache
+C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -10,11 +10,10 @@ namespace Clothes_R_Us.Models
         private readonly Age _age;
         private readonly string _type;
 
-        public List<Size> Sizes { get; set; }
-        public List<Colour> Colours { get; set; }
+        private List<Size> Sizes { get; }
+        private List<Colour> Colours { get; }
         
         public Clothing(
-            PriceCalculator priceCalculator, 
             Sex sex, 
             Age age, 
             string type, 
@@ -22,10 +21,11 @@ namespace Clothes_R_Us.Models
             string name, 
             string description, 
             double price, 
-            List<Image> images) 
+            List<Image> images,
+            List<Size> sizes,
+            List<Colour> colours) 
             : 
             base(
-                priceCalculator, 
                 productNumber,  
                 name, 
                 description, 
@@ -35,6 +35,8 @@ namespace Clothes_R_Us.Models
             _sex = sex;
             _age = age;
             _type = type;
+            Sizes = sizes;
+            Colours = colours;
         }
 
         public override List<string> Categories

@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Clothes-R-Us.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\Johannes\Documents\Git\Clothes-R-Us\Clothes-R-Us-Catalogue\Clothes-R-Us\.idea\.idea.Clothes-R-Us.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

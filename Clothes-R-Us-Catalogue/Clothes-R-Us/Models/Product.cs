@@ -5,19 +5,16 @@ namespace Clothes_R_Us.Models
 {
     public abstract class Product
     {
-        private PriceCalculator _calculator;
-        
-        public int ProductNumber { get; }
-        public string Name { get; }
-        public string Description { get; }
-        public double Price { get; }
-        public List<Image> Images { get; }
+        public int ProductNumber { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public double Price { get; set; }
+        public List<Image> Images { get; set; }
         
         public abstract List<string> Categories { get;}
 
-        protected Product(PriceCalculator priceCalculator, int productNumber, string name, string description, double price, List<Image> images)
+        protected Product(int productNumber, string name, string description, double price, List<Image> images)
         {
-            _calculator = priceCalculator;
             ProductNumber = productNumber;
             Name = name;
             Description = description;

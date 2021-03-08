@@ -2,6 +2,6 @@
 {
     public interface PriceCalculator
     {
-        double CalculatePrice();
+        double CalculatePrice(double basePrice);
     }
 }
