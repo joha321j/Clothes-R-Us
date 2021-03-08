@@ -6,9 +6,9 @@ namespace Clothes_R_Us.Models
 {
     public class Clothing: Product
     {
-        private Sex _sex;
-        private Age _age;
-        private string _type;
+        private readonly Sex _sex;
+        private readonly Age _age;
+        private readonly string _type;
 
         public List<Size> Sizes { get; set; }
         public List<Colour> Colours { get; set; }
